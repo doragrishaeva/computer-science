@@ -45,7 +45,7 @@ let emptyArray = Array.of(); // []
 
 **Array.from():** (creates array from iterable objects, like Set, strings, Map, NodeList)
 
-- Array.from(iterable) – creates array, Set, Map, NodeList
+- Array.from(iterable) – creates array from strings, Set, Map, NodeList
 - Array.from({ length: n }, fn) – creates array with generated values (alternative to **new Array(n).fill().map()**)
 
 ```javascript
