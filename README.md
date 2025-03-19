@@ -10,7 +10,3 @@ This repository is a **structured collection of Computer Science resources**, co
 - **Computer Networks & Security** 🌐
 - **Databases & Storage Systems** 🗄️
 - **Programming Paradigms & Best Practices** 💡
-
-## 📂 Folder Structure
-
-The repository follows a well-organized structure to help you navigate through the topics easily.
