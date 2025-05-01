@@ -15,12 +15,11 @@ Input: [1, 2, 3, 4];
 Output: [4, 3, 2, 1];
 
 function reverseArray(arr) {
-  let left = 0; // first element
-  let right = arr.length - 1; // last element
+  let left = 0;
+  let right = arr.length - 1;
 
-  //while they're not the same
   while (left < right) {
-    [arr[left], arr[right]] = [arr[right], arr[left]]; // swap
+    [arr[left], arr[right]] = [arr[right], arr[left]];
     left++;
     right--;
   }

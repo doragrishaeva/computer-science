@@ -23,11 +23,11 @@ function removeElement(nums, val) {
   // fast pointer should iterate the whole array
   for (let fast = 0; fast < nums.length; fast++) {
     if (nums[fast] !== val) {
-      // if current element is not val
-      nums[slow] = nums[fast]; // overwrite
+      // if current element is not val - copy it
+      nums[slow] = nums[fast];
       slow++;
     }
   }
 
-  return slow;
+  return slow; //length of filtered part
 }

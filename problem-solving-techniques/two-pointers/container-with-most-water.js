@@ -15,11 +15,10 @@
 // Space complexity: O(1) — no additional memory used
 
 function maxArea(height) {
-  let left = 0; // first element
-  let right = height.length - 1; // last element
+  let left = 0;
+  let right = height.length - 1;
   let max = 0; // max area
 
-  //while they're not the same
   while (left < right) {
     const h = Math.min(height[left], height[right]); // min height
     const w = right - left; // width

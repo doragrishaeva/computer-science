@@ -13,10 +13,9 @@
 // Space complexity: O(1)
 
 COMPLEXITY: function isPalindrome(str) {
-  let left = 0; // first element
-  let right = str.length - 1; // last element
+  let left = 0;
+  let right = str.length - 1;
 
-  //while they're not the same
   while (left < right) {
     if (str[left] !== str[right]) return false;
     left++;
